@@ -198,5 +198,33 @@ export const portfolioSections = {
         title: "Grace Jones Editorial"
       }
     ]
+  },
+
+  videos: {
+    title: "Melrose Heights Magazine & TV",
+    color: "red", // Red accent color for video section
+    description: "Television production work, interviews, and behind-the-scenes content from Melrose Heights Magazine & TV show.",
+    videos: [
+      {
+        type: "placeholder", // Will be replaced with actual videos in backend
+        title: "Melrose Heights TV Show - Episode 1",
+        description: "Behind-the-scenes look at magazine production and photo shoots"
+      },
+      {
+        type: "placeholder",
+        title: "Fashion Photography Documentary",
+        description: "Curtis Williams Jr. directing a high-fashion photo shoot"
+      },
+      {
+        type: "placeholder", 
+        title: "Art Director Spotlight",
+        description: "Creative process behind Melrose Heights Magazine layouts"
+      },
+      {
+        type: "placeholder",
+        title: "Celebrity Interview Series",
+        description: "Exclusive interviews with fashion and entertainment personalities"
+      }
+    ]
   }
 };
