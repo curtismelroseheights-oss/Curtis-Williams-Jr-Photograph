@@ -12,8 +12,8 @@ import uuid
 from datetime import datetime
 
 # Import our custom modules
-from .database import init_default_data, close_db_connection
-from .portfolio_routes import router as portfolio_router
+from database import init_default_data, close_db_connection
+from portfolio_routes import router as portfolio_router
 
 ROOT_DIR = Path(__file__).parent
 load_dotenv(ROOT_DIR / '.env')
