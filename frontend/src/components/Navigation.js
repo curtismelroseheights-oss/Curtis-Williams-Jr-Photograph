@@ -79,7 +79,7 @@ const Navigation = () => {
                   scrollToSection('projects');
                 }}
               >
-                Projects
+                Portfolio
               </a>
             </li>
             <li>
