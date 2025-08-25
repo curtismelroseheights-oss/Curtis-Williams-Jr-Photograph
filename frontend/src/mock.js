@@ -1,21 +1,25 @@
-// Mock data for Curtis Williams Photography Portfolio
+// Real data for Curtis Williams Photography Portfolio
 
 export const mockData = {
   personal: {
     name: "Curtis Williams",
-    tagline: "Master of Light & Shadow",
-    subtitle: "Fashion, Fine Art & Commercial Photographer",
-    email: "curtismelroseheights@gmail.com",
-    phone: "310-590-6601",
+    title: "FOTOGRAF",
+    tagline: "LET IT BE AMAZING",
+    subtitle: "Advertising Photographer, Film Producer & Director",
+    email: "curopa@sbcglobal.net",
+    phone: "310-880-2341",
     location: "Los Angeles, CA",
-    bio: `Curtis Williams was born one of nine children, the son of a black army master sergeant. His father was stationed in Germany following WW2, where six-year-old Curtis got his first impressions of Europe and made his happiest childhood memories.
+    bio: `Curtis Williams has worked as an advertising photographer, film producer and director. However, his true love is design and photography, a field in which he has accumulated more than thirty years of experience.
+
+Curtis Williams was born one of nine children, the son of a black army master sergeant. His father was stationed in Germany following WW2, where six-year-old Curtis got his first impressions of Europe and made his happiest childhood memories.
 
 By age seventeen, Curtis had become obsessed with getting out of the hood and landed an apprenticeship at Peterson Productions in Hollywood. He thrived in this artistic environment, working up to sixteen hours a day without pay, drawing on the expertise of top directors and advertising executives.
 
 With the help of his godfather Richard Rucker, Curtis obtained a scholarship at the prestigious Art Center College of Design, Los Angeles. He graduated with honors and at twenty-two, won a Junior Academy Award.
 
 In March 1976, VIVA magazine said: "Twenty-seven year-old Curtis Williams is very much an artist of our time: his camera is the latest in photographic technology and his subjects are modern, liberated women. Yet, the special effects Williams perfected invite comparison with the oil paintings of the very greatest seventeenth-century masters."`,
-    quote: "Photography is not just about capturing moments—it's about revealing the soul within the frame."
+    quote: "Light is the essence of life, and through my lens, I capture the soul that lives within every frame.",
+    book: "Light The Essence Of Life"
   },
 
   skills: [
