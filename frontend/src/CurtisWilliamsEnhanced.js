@@ -196,6 +196,14 @@ const CurtisWilliamsEnhanced = () => {
         color={portfolioSections.editorial.color}
       />
 
+      {/* Melrose Heights Magazine & TV Videos */}
+      <VideoGallery 
+        section={portfolioSections.videos.title}
+        videos={portfolioSections.videos.videos}
+        color={portfolioSections.videos.color}
+        description={portfolioSections.videos.description}
+      />
+
       {/* Projects Summary Section */}
       <section id="projects" className="section-spacing section-green">
         <div className="container-portfolio">
