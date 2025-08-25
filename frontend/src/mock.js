@@ -2,7 +2,7 @@
 
 export const mockData = {
   personal: {
-    name: "Curtis Williams",
+    name: "Curtis Williams Jr.",
     title: "FOTOGRAF",
     tagline: "LET IT BE AMAZING",
     subtitle: "Advertising Photographer, Film Producer & Director",
