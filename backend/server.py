@@ -34,6 +34,15 @@ api_router = APIRouter(prefix="/api")
 async def root():
     return {"message": "Curtis Williams Jr. Portfolio API is running!"}
 
+# Health check endpoint
+@api_router.get("/health")
+async def health_check():
+    return {
+        "status": "healthy",
+        "message": "Curtis Williams Jr. Portfolio API is running",
+        "timestamp": datetime.utcnow().isoformat()
+    }
+
 # Include portfolio routes
 api_router.include_router(portfolio_router, tags=["portfolio"])
 
