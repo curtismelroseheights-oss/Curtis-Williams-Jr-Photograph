@@ -30,7 +30,7 @@ const Navigation = () => {
             e.preventDefault();
             scrollToSection('home');
           }}>
-            Curtis Williams
+            Curtis Williams Jr.
           </a>
           
           <ul className="nav-links">
