@@ -49,17 +49,22 @@ In March 1976, VIVA magazine said: "Twenty-seven year-old Curtis Williams is ver
       ]
     },
     {
-      title: "Producer, Director & Director of Photography",
+      title: "Producer, Director & Art Director",
       company: "Melrose Heights Magazine & TV",
       location: "Los Angeles, CA",
       period: "2012 - 2020",
-      type: "Publishing & Broadcasting",
-      description: "Publisher, Executive Editor, Art Director, and Photographer of the exciting, upscale magazine 'Melrose Heights.' Oversaw all facets of production including training and supervision of freelance teams.",
+      type: "Publishing, Broadcasting & Creative Direction",
+      description: "Founded and led the creative vision for Melrose Heights Magazine & TV (www.melroseheightsmagazinetv.com), serving as Publisher, Executive Editor, Art Director, and primary photographer. Pioneered the integration of print magazine and television production, creating compelling multimedia content that bridges traditional publishing with modern broadcasting.",
       highlights: [
-        "Led creative direction for upscale lifestyle magazine",
-        "Supervised teams of editors, writers, film editors, makeup artists, hairstylists",
-        "Developed content acquisition strategies for compelling editorial",
-        "Managed relationships with account executives for advertising sales"
+        "Executive Producer and Director for Melrose Heights TV Show, overseeing all aspects of production from concept to broadcast",
+        "Art Director for upscale lifestyle magazine, establishing visual identity and brand standards",
+        "Director of Photography for both magazine shoots and television segments, ensuring consistent high-quality imagery",
+        "Camera Operator and Cinematographer for video productions, bringing decades of photographic expertise to moving image",
+        "Led creative direction for integrated marketing campaigns across print, digital, and broadcast media",
+        "Supervised cross-disciplinary teams including editors, writers, film editors, makeup artists, hairstylists, and production assistants",
+        "Developed innovative content acquisition strategies that seamlessly blended magazine editorial with television storytelling",
+        "Managed relationships with advertising clients, ensuring creative vision aligned with commercial objectives",
+        "Pioneered multimedia storytelling techniques that enhanced both magazine readership and TV viewership"
       ]
     },
     {
