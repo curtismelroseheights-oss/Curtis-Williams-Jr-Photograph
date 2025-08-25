@@ -84,6 +84,18 @@ const Navigation = () => {
             </li>
             <li>
               <a 
+                href="#book" 
+                className="nav-link"
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToSection('book');
+                }}
+              >
+                Book
+              </a>
+            </li>
+            <li>
+              <a 
                 href="#contact" 
                 className="nav-link"
                 onClick={(e) => {
