@@ -432,6 +432,139 @@ const CurtisWilliamsLive = () => {
         />
       )}
 
+      {/* Melrose Heights Magazine & TV Video Section */}
+      <section className="section-spacing section-red">
+        <div className="container-portfolio">
+          <div className="animate-on-scroll">
+            <h2 className="section-title section-title-red">Melrose Heights Magazine & TV</h2>
+            <p className="body-text" style={{ 
+              textAlign: 'center', 
+              maxWidth: '800px', 
+              margin: '0 auto 3rem auto',
+              fontSize: '1.125rem'
+            }}>
+              Television production work, interviews, and behind-the-scenes content from Curtis Williams Jr.'s 
+              Melrose Heights Magazine & TV show. Experience the creative process of a legendary photographer 
+              turned producer and director.
+            </p>
+          </div>
+          
+          <div className="portfolio-gallery">
+            {/* Video placeholders - will be populated when you upload actual videos */}
+            {[
+              {
+                title: "Melrose Heights TV Show - Fashion Episode",
+                description: "Curtis Williams Jr. directing a high-fashion photo shoot with behind-the-scenes insights"
+              },
+              {
+                title: "Celebrity Interview Series",
+                description: "Exclusive interviews with fashion and entertainment personalities by Curtis Williams Jr."
+              },
+              {
+                title: "Art Direction Master Class",
+                description: "Curtis Williams Jr. demonstrates his legendary art direction techniques"
+              },
+              {
+                title: "Photography Workshop",
+                description: "Learn from 50+ years of experience with Curtis Williams Jr.'s photography masterclass"
+              },
+              {
+                title: "Melrose Heights Magazine Production",
+                description: "Behind-the-scenes look at Curtis Williams Jr.'s magazine production process"
+              },
+              {
+                title: "Darkroom Techniques Revealed",
+                description: "Curtis Williams Jr. shares his revolutionary darkroom techniques compared to 17th-century masters"
+              }
+            ].map((video, index) => (
+              <div key={index} className="video-card animate-on-scroll">
+                <div className="video-placeholder">
+                  <div className="video-icon-container">
+                    <div style={{
+                      width: '80px',
+                      height: '80px',
+                      borderRadius: '50%',
+                      background: 'rgba(220, 38, 38, 0.2)',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      border: '2px solid var(--color-red-light)'
+                    }}>
+                      <span style={{ fontSize: '2rem' }}>▶</span>
+                    </div>
+                  </div>
+                  <div className="video-overlay">
+                    <p style={{ color: 'white', fontSize: '0.875rem', opacity: 0.9 }}>
+                      Ready for your video uploads from Melroseheightsmagazinetv.com
+                    </p>
+                  </div>
+                </div>
+                <div className="video-content">
+                  <h3 className="video-title" style={{ color: 'var(--color-red-light)' }}>
+                    {video.title}
+                  </h3>
+                  <p className="caption-text">
+                    {video.description}
+                  </p>
+                  <div className="video-tag" style={{ 
+                    background: 'rgba(239, 68, 68, 0.2)',
+                    borderColor: 'var(--color-red-light)',
+                    color: 'var(--color-red-light)',
+                    display: 'inline-flex',
+                    alignItems: 'center',
+                    fontSize: '0.75rem',
+                    padding: '0.25rem 0.75rem',
+                    borderRadius: '4px',
+                    border: '1px solid',
+                    marginTop: '1rem'
+                  }}>
+                    🎬 Melrose Heights TV
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <div className="animate-on-scroll" style={{ marginTop: '3rem', textAlign: 'center' }}>
+            <div style={{
+              padding: '2rem',
+              background: 'rgba(255, 255, 255, 0.05)',
+              borderRadius: '12px',
+              backdropFilter: 'blur(10px)',
+              border: '1px solid rgba(255, 255, 255, 0.1)',
+              maxWidth: '600px',
+              margin: '0 auto'
+            }}>
+              <h3 style={{ 
+                color: 'var(--color-red-light)', 
+                marginBottom: '1rem',
+                fontFamily: 'var(--font-serif)'
+              }}>
+                Upload Your Melrose Heights TV Content!
+              </h3>
+              <p className="body-text" style={{ marginBottom: '1.5rem' }}>
+                Curtis Williams Jr.'s complete video management system is ready for all your 
+                Melroseheightsmagazinetv.com content including:
+              </p>
+              <ul style={{ 
+                listStyle: 'none', 
+                padding: 0, 
+                color: 'var(--color-gray-300)',
+                textAlign: 'left',
+                maxWidth: '400px',
+                margin: '0 auto'
+              }}>
+                <li style={{ marginBottom: '0.5rem' }}>📺 TV Show Episodes</li>
+                <li style={{ marginBottom: '0.5rem' }}>🎤 Celebrity Interviews</li>
+                <li style={{ marginBottom: '0.5rem' }}>📸 Photography Workshops</li>
+                <li style={{ marginBottom: '0.5rem' }}>🎬 Behind-the-scenes Content</li>
+                <li style={{ marginBottom: '0.5rem' }}>🎨 Art Direction Tutorials</li>
+                <li style={{ marginBottom: '0.5rem' }}>📰 Magazine Production</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
       {/* Projects Section */}
       <section id="projects" className="section-spacing section-green">
         <div className="container-portfolio">
