@@ -5,19 +5,19 @@ import os
 from bson import ObjectId
 from datetime import datetime
 
-from .database import (
+from database import (
     personal_info_collection, social_links_collection, skills_collection,
     experience_collection, projects_collection, portfolio_images_collection,
     videos_collection, awards_collection
 )
-from .models import (
+from models import (
     PersonalInfo, PersonalInfoUpdate, SocialLinks, SocialLinksUpdate,
     Skill, SkillCreate, SkillUpdate, Experience, ExperienceCreate, ExperienceUpdate,
     Project, ProjectCreate, ProjectUpdate, PortfolioImage, PortfolioImageCreate, PortfolioImageUpdate,
     Video, VideoCreate, VideoUpdate, Award, AwardCreate, AwardUpdate,
     UploadResponse, BulkUploadResponse
 )
-from .file_upload import save_image, save_video, delete_file, get_file_url, get_file_info
+from file_upload import save_image, save_video, delete_file, get_file_url, get_file_info
 
 router = APIRouter()
 
