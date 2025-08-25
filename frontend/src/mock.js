@@ -6,7 +6,7 @@ export const mockData = {
     title: "FOTOGRAF",
     tagline: "LET IT BE AMAZING",
     subtitle: "Advertising Photographer, Film Producer & Director",
-    email: "curopa@sbcglobal.net",
+    email: "melroseheights@me.com",
     phone: "310-880-2341",
     location: "Los Angeles, CA",
     bio: `Curtis Williams has worked as an advertising photographer, film producer and director. However, his true love is design and photography, a field in which he has accumulated more than thirty years of experience.
