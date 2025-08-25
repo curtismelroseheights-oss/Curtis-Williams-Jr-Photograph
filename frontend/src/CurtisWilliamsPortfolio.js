@@ -187,6 +187,78 @@ const CurtisWilliamsPortfolio = () => {
         </div>
       </section>
 
+      {/* Book Section */}
+      <section id="book" className="section-spacing">
+        <div className="container-portfolio">
+          <div className="animate-on-scroll">
+            <h2 className="section-title">Photography Book</h2>
+          </div>
+          
+          <div className="grid-2-col">
+            <div className="animate-on-scroll">
+              <img 
+                src="https://curtiswilliamsphotograph.com/wp-content/uploads/2021/05/d3c016_de379086b06746b9871568b31ca61eb9_mv2-scaled.jpg"
+                alt="Light The Essence Of Life Book Cover"
+                style={{
+                  width: '100%',
+                  height: 'auto',
+                  borderRadius: '8px',
+                  boxShadow: '0 20px 40px rgba(0,0,0,0.1)'
+                }}
+              />
+            </div>
+            
+            <div className="animate-on-scroll">
+              <h3 className="subsection-title">{mockData.personal.book}</h3>
+              <div className="body-text">
+                <p style={{ marginBottom: '1.5rem' }}>
+                  A comprehensive collection showcasing five decades of Curtis Williams' masterful photography work. 
+                  This book represents the culmination of an extraordinary career that began in 1974 and continues 
+                  to inspire photographers worldwide.
+                </p>
+                <p style={{ marginBottom: '1.5rem' }}>
+                  From fashion editorials for Vogue and Elle to groundbreaking art photo-painting techniques, 
+                  this collection captures the essence of Curtis's revolutionary approach to photography - 
+                  where light truly becomes the essence of life.
+                </p>
+                <p>
+                  Featuring over 200 images spanning fashion, editorial, fine art, and commercial photography, 
+                  this book is a testament to Curtis's enduring legacy in the world of photography.
+                </p>
+              </div>
+              
+              <div style={{ marginTop: '2rem' }}>
+                <button 
+                  style={{
+                    padding: '1rem 2rem',
+                    background: 'var(--color-primary)',
+                    color: 'white',
+                    border: 'none',
+                    borderRadius: '4px',
+                    fontSize: '1rem',
+                    fontWeight: '600',
+                    cursor: 'pointer',
+                    transition: 'all 0.25s ease',
+                    textTransform: 'uppercase',
+                    letterSpacing: '0.1em'
+                  }}
+                  onMouseEnter={(e) => {
+                    e.target.style.transform = 'translateY(-2px)';
+                    e.target.style.boxShadow = '0 10px 20px rgba(0,0,0,0.2)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.target.style.transform = 'translateY(0)';
+                    e.target.style.boxShadow = 'none';
+                  }}
+                >
+                  Purchase Book
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Contact Section */}
       <section id="contact" className="contact-section section-spacing">
         <div className="container-portfolio">
