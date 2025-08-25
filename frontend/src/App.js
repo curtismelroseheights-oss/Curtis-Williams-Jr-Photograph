@@ -1,14 +1,14 @@
 import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import CurtisWilliamsEnhanced from "./CurtisWilliamsEnhanced";
+import CurtisWilliamsLive from "./CurtisWilliamsLive";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<CurtisWilliamsEnhanced />} />
+          <Route path="/" element={<CurtisWilliamsLive />} />
         </Routes>
       </BrowserRouter>
     </div>
