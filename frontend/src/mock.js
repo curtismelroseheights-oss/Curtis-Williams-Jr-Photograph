@@ -166,10 +166,11 @@ In March 1976, VIVA magazine said: "Twenty-seven year-old Curtis Williams is ver
   ],
 
   social: {
-    website: "www.curtiswilliamsphotograph.com",
-    magazine: "www.melroseheightsmagazine.com",
-    facebook: "www.facebook.com/curtiswilliamsphotographyla",
-    linkedin: "linkedin.com/in/curtis-williams-a52623b",
-    twitter: "@MelroseHeights"
+    website: "curtiswilliamsphotograph.com",
+    magazine: "www.melroseheightsmagazine.com", 
+    facebook: "https://www.facebook.com/curtiswilliamsphotographyla",
+    linkedin: "https://linkedin.com/in/curtis-williams-a5262",
+    instagram: "https://www.instagram.com/",
+    twitter: "https://twitter.com/"
   }
 };
