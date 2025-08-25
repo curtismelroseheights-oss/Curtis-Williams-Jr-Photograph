@@ -79,52 +79,52 @@ In March 1976, VIVA magazine said: "Twenty-seven year-old Curtis Williams is ver
 
   projects: [
     {
-      title: "Vogue Editorial Series",
-      category: "Fashion Photography",
-      year: "1975-1980",
-      description: "Iconic fashion editorial spreads for Vogue magazine, showcasing modern, liberated women with revolutionary special effects techniques.",
-      image: "https://images.unsplash.com/photo-1701286180819-5b2b96af0d7e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHwyfHxwcm9mZXNzaW9uYWwlMjBwaG90b2dyYXBoeXxlbnwwfHx8YmxhY2tfYW5kX3doaXRlfDE3NTYxNTY1NjB8MA&ixlib=rb-4.1.0&q=85",
-      tags: ["Fashion", "Editorial", "Vogue"]
+      title: "Fashion Photography",
+      category: "Fashion & Beauty",
+      year: "1974-Present",
+      description: "High-fashion photography showcasing modern, liberated women with cutting-edge techniques and artistic vision.",
+      image: "https://curtiswilliamsphotograph.com/wp-content/uploads/2021/05/d3c016_79a9dce6ff934c66a8d2de796ed8f55c_mv2.jpg",
+      tags: ["Fashion", "Beauty", "Commercial"]
     },
     {
-      title: "European Fashion Campaign",
-      category: "Commercial Photography",
-      year: "1980-2000",
-      description: "20-year span of commercial fashion campaigns across major European markets, working with top agencies and brands.",
-      image: "https://images.unsplash.com/photo-1701286842710-5f37edc4b8b4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHwzfHxwcm9mZXNzaW9uYWwlMjBwaG90b2dyYXBoeXxlbnwwfHx8YmxhY2tfYW5kX3doaXRlfDE3NTYxNTY1NjB8MA&ixlib=rb-4.1.0&q=85",
-      tags: ["Commercial", "Fashion", "Europe"]
-    },
-    {
-      title: "Fine Art Portrait Collection",
-      category: "Fine Art Photography",
+      title: "Magazine Covers", 
+      category: "Editorial Photography",
       year: "1975-Present",
-      description: "Masterful portrait collection showcasing Curtis's signature darkroom techniques that 'invite comparison with seventeenth-century masters.'",
-      image: "https://images.unsplash.com/photo-1590769620285-6926a01c2a58?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHw0fHxwb3J0Zm9saW98ZW58MHx8fGJsYWNrX2FuZF93aGl0ZXwxNzU2MTU2NTY3fDA&ixlib=rb-4.1.0&q=85",
-      tags: ["Fine Art", "Portraits", "Masters"]
+      description: "Iconic magazine covers and editorial spreads for prestigious publications worldwide.",
+      image: "https://curtiswilliamsphotograph.com/wp-content/uploads/2021/05/d3c016_0a2fb3bc03394c1bba2eb0df46ba6f42_mv2.jpg",
+      tags: ["Editorial", "Covers", "Magazines"]
     },
     {
-      title: "Melrose Heights Magazine",
-      category: "Publishing & Photography",
-      year: "2012-2020",
-      description: "Founded and produced upscale lifestyle magazine, serving as Publisher, Editor, Art Director, and primary photographer.",
-      image: "https://images.unsplash.com/photo-1701286732006-432405962a00?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHw0fHxwcm9mZXNzaW9uYWwlMjBwaG90b2dyYXBoeXxlbnwwfHx8YmxhY2tfYW5kX3doaXRlfDE3NTYxNTY1NjB8MA&ixlib=rb-4.1.0&q=85",
-      tags: ["Publishing", "Magazine", "Editorial"]
+      title: "Still Life Mastery",
+      category: "Commercial Photography", 
+      year: "1980-Present",
+      description: "Sophisticated still life photography combining technical precision with artistic beauty.",
+      image: "https://curtiswilliamsphotograph.com/wp-content/uploads/2021/05/d3c016_e6c4a31ddd97497e8829f8c8dad92616_mv2-scaled.jpg",
+      tags: ["Still Life", "Commercial", "Product"]
     },
     {
-      title: "Wilhelmina Models Portfolio",
-      category: "Fashion Photography",
-      year: "1974",
-      description: "Personal photographer for Wilhelmina Cooper, capturing world-famous models at the height of the fashion industry.",
-      image: "https://images.unsplash.com/photo-1518315064-bec5daa6062b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDN8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBwaG90b2dyYXBoeXxlbnwwfHx8YmxhY2tfYW5kX3doaXRlfDE3NTYxNTY1NjB8MA&ixlib=rb-4.1.0&q=85",
-      tags: ["Fashion", "Models", "Wilhelmina"]
+      title: "Art Photo Painting",
+      category: "Fine Art Photography",
+      year: "1975-Present", 
+      description: "Revolutionary photo-painting techniques that blur the lines between photography and classical art.",
+      image: "https://curtiswilliamsphotograph.com/wp-content/uploads/2021/05/d3c016_c1214a3bf8ad456faf99267186b28fa0_mv2-scaled.jpg",
+      tags: ["Fine Art", "Painting", "Innovation"]
     },
     {
-      title: "Commercial Advertising Campaigns",
-      category: "Commercial Photography",
-      year: "1975-2000",
-      description: "Major advertising campaigns for General Foods, United Negro College Fund, Clairol Hair Products, and other Fortune 500 companies.",
-      image: "https://images.pexels.com/photos/33566594/pexels-photo-33566594.jpeg",
-      tags: ["Commercial", "Advertising", "Brands"]
+      title: "Editorial Spreads",
+      category: "Magazine Photography",
+      year: "1974-Present",
+      description: "International editorial work for Damernas Varld, Gala Magazine, and features with icons like Grace Jones.",
+      image: "https://curtiswilliamsphotograph.com/wp-content/uploads/2021/06/Damernas-Varld-4-Pages-1-1.jpg",
+      tags: ["Editorial", "International", "Icons"]
+    },
+    {
+      title: "Light The Essence Of Life Book",
+      category: "Photography Book",
+      year: "2021",
+      description: "A comprehensive collection showcasing five decades of Curtis Williams' masterful photography work.",
+      image: "https://curtiswilliamsphotograph.com/wp-content/uploads/2021/05/d3c016_de379086b06746b9871568b31ca61eb9_mv2-scaled.jpg",
+      tags: ["Book", "Collection", "Legacy"]
     }
   ],
 
