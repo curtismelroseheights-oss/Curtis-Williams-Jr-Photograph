@@ -17,13 +17,36 @@ const HeroSection = () => {
       <div className="hero-background"></div>
       <div className="container-portfolio">
         <div className={`hero-content ${isVisible ? 'fade-in-up' : ''}`}>
+          <div style={{ marginBottom: '1rem' }}>
+            <p style={{ 
+              fontSize: '1.2rem',
+              fontWeight: '300',
+              color: 'var(--color-gray-600)',
+              margin: '0',
+              letterSpacing: '0.2em',
+              textTransform: 'uppercase'
+            }}>
+              {mockData.personal.tagline}
+            </p>
+          </div>
+          
           <h1 className="hero-title">
             {mockData.personal.name}
           </h1>
-          <p className="hero-subtitle">
-            {mockData.personal.tagline}
+          
+          <p style={{
+            fontFamily: 'var(--font-serif)',
+            fontSize: '1.5rem',
+            fontWeight: '400',
+            color: 'var(--color-gray-700)',
+            margin: '1rem 0 0 0',
+            letterSpacing: '0.1em',
+            textTransform: 'uppercase'
+          }}>
+            {mockData.personal.title}
           </p>
-          <p className="hero-subtitle" style={{ marginTop: '0.5rem', fontSize: '1rem' }}>
+          
+          <p className="hero-subtitle" style={{ marginTop: '1rem', fontSize: '1.1rem' }}>
             {mockData.personal.subtitle}
           </p>
           
