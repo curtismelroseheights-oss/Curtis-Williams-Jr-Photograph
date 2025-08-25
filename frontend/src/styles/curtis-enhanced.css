@@ -282,9 +282,11 @@ body {
   position: relative;
   overflow: hidden;
   border-radius: 8px;
-  aspect-ratio: 4/5;
   cursor: pointer;
   transition: all var(--transition-base);
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .gallery-item:hover {
@@ -294,13 +296,16 @@ body {
 
 .gallery-image {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  min-height: 250px;
+  object-fit: contain;
+  object-position: center;
   transition: transform var(--transition-slow);
+  background: linear-gradient(45deg, #1a1a1a, #2a2a2a);
 }
 
 .gallery-item:hover .gallery-image {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .gallery-overlay {
