@@ -376,12 +376,59 @@ const CurtisWilliamsLive = () => {
         </div>
       </section>
 
-      {/* Portfolio Galleries */}
+      {/* Portfolio Galleries - Show all categories */}
       {portfolioImages.fashion.length > 0 && (
         <PortfolioGallery 
           section="Fashion Photography"
-          images={portfolioImages.fashion.map(img => ({ url: img.image_url, title: img.title }))}
+          images={portfolioImages.fashion.map(img => ({ 
+            url: `${process.env.REACT_APP_BACKEND_URL}${img.image_url}`, 
+            title: img.title 
+          }))}
           color="red"
+        />
+      )}
+
+      {portfolioImages.covers.length > 0 && (
+        <PortfolioGallery 
+          section="Magazine Covers"
+          images={portfolioImages.covers.map(img => ({ 
+            url: `${process.env.REACT_APP_BACKEND_URL}${img.image_url}`, 
+            title: img.title 
+          }))}
+          color="green"
+        />
+      )}
+
+      {portfolioImages.stillLife.length > 0 && (
+        <PortfolioGallery 
+          section="Still Life Photography"
+          images={portfolioImages.stillLife.map(img => ({ 
+            url: `${process.env.REACT_APP_BACKEND_URL}${img.image_url}`, 
+            title: img.title 
+          }))}
+          color="brown"
+        />
+      )}
+
+      {portfolioImages.artPhotoPainting.length > 0 && (
+        <PortfolioGallery 
+          section="Art Photo Painting"
+          images={portfolioImages.artPhotoPainting.map(img => ({ 
+            url: `${process.env.REACT_APP_BACKEND_URL}${img.image_url}`, 
+            title: img.title 
+          }))}
+          color="red"
+        />
+      )}
+
+      {portfolioImages.editorial.length > 0 && (
+        <PortfolioGallery 
+          section="Editorial Photography"
+          images={portfolioImages.editorial.map(img => ({ 
+            url: `${process.env.REACT_APP_BACKEND_URL}${img.image_url}`, 
+            title: img.title 
+          }))}
+          color="green"
         />
       )}
 
