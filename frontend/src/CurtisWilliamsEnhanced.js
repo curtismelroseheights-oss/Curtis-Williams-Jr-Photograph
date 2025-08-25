@@ -2,10 +2,12 @@ import React, { useEffect } from 'react';
 import Navigation from './components/Navigation';
 import HeroSection from './components/HeroSection';
 import PortfolioGallery from './components/PortfolioGallery';
+import VideoGallery from './components/VideoGallery';
 import { mockData } from './mock';
 import { portfolioSections } from './portfolioData';
 import { Mail, Phone, MapPin, Globe, Linkedin, Twitter, Facebook } from 'lucide-react';
 import './styles/curtis-enhanced.css';
+import './styles/video-gallery.css';
 
 const CurtisWilliamsEnhanced = () => {
   
