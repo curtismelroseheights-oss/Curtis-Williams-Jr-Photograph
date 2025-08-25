@@ -81,12 +81,3 @@ async def shutdown_event():
     """Close database connection"""
     await close_db_connection()
     logger.info("Database connection closed")
-
-# Health check endpoint
-@api_router.get("/health")
-async def health_check():
-    return {
-        "status": "healthy",
-        "message": "Curtis Williams Jr. Portfolio API is running",
-        "timestamp": datetime.utcnow().isoformat()
-    }
