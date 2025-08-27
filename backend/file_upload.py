@@ -26,8 +26,8 @@ ALLOWED_VIDEO_TYPES = {
     "video/mp4", "video/avi", "video/mov", "video/wmv", "video/flv", "video/webm"
 }
 
-MAX_IMAGE_SIZE = 10 * 1024 * 1024  # 10MB
-MAX_VIDEO_SIZE = 100 * 1024 * 1024  # 100MB
+MAX_IMAGE_SIZE = 50 * 1024 * 1024  # 50MB
+MAX_VIDEO_SIZE = 1000 * 1024 * 1024  # 1000MB (1GB)
 
 def validate_file(file: UploadFile, file_type: str = "image") -> bool:
     """Validate uploaded file"""
