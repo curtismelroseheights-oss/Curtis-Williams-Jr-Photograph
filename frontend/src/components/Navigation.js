@@ -96,6 +96,18 @@ const Navigation = () => {
             </li>
             <li>
               <a 
+                href="#upload" 
+                className="nav-link"
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToSection('upload');
+                }}
+              >
+                Upload
+              </a>
+            </li>
+            <li>
+              <a 
                 href="#contact" 
                 className="nav-link"
                 onClick={(e) => {
