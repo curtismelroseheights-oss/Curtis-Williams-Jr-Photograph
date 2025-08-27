@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CurtisWilliamsLive from "./CurtisWilliamsLive";
-import SimpleAdmin from "./components/SimpleAdmin";
+import WorkingAdmin from "./components/WorkingAdmin";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<CurtisWilliamsLive />} />
-          <Route path="/admin" element={<SimpleAdmin />} />
+          <Route path="/admin" element={<WorkingAdmin />} />
         </Routes>
       </BrowserRouter>
     </div>
