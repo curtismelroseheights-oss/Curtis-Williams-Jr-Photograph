@@ -601,6 +601,262 @@ const CurtisWilliamsLive = () => {
         </div>
       </section>
 
+      {/* Upload Admin Section - Direct Access */}
+      <section id="upload" className="section-spacing section-black" style={{
+        borderTop: '3px solid var(--color-red)',
+        background: 'linear-gradient(135deg, #1a0000 0%, var(--color-black) 50%, #1a0000 100%)'
+      }}>
+        <div className="container-portfolio">
+          <div className="animate-on-scroll">
+            <h2 className="section-title" style={{ color: 'var(--color-red-light)' }}>
+              🎯 Upload Your Content Here
+            </h2>
+            <p className="body-text" style={{ 
+              textAlign: 'center', 
+              maxWidth: '800px', 
+              margin: '0 auto 3rem auto',
+              fontSize: '1.125rem'
+            }}>
+              Curtis Williams Jr.'s easy upload system - Add your photos and videos directly to your portfolio
+            </p>
+          </div>
+          
+          <div style={{
+            background: 'rgba(255, 255, 255, 0.1)',
+            borderRadius: '12px',
+            padding: '3rem',
+            textAlign: 'center',
+            border: '2px solid var(--color-red)'
+          }}>
+            <h3 style={{ color: 'var(--color-white)', marginBottom: '2rem', fontSize: '2rem' }}>
+              📱 Three Easy Ways to Upload Your Content:
+            </h3>
+            
+            <div style={{
+              display: 'grid',
+              gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))',
+              gap: '2rem',
+              marginBottom: '3rem'
+            }}>
+              
+              {/* Method 1: Backend API */}
+              <div style={{
+                background: 'rgba(220, 38, 38, 0.2)',
+                border: '2px solid var(--color-red)',
+                borderRadius: '12px',
+                padding: '2rem'
+              }}>
+                <h4 style={{ color: 'var(--color-red-light)', marginBottom: '1rem' }}>
+                  🔧 Method 1: Backend API Upload
+                </h4>
+                <p style={{ color: 'var(--color-gray-300)', marginBottom: '1rem' }}>
+                  Use curl commands to upload directly to your backend API:
+                </p>
+                <div style={{
+                  background: '#000',
+                  padding: '1rem',
+                  borderRadius: '6px',
+                  fontSize: '0.9rem',
+                  textAlign: 'left',
+                  color: '#00ff00',
+                  fontFamily: 'monospace'
+                }}>
+                  <div style={{ marginBottom: '0.5rem' }}># Upload a photo:</div>
+                  <div>curl -X POST -F "file=@photo.jpg" \\</div>
+                  <div>  -F "title=My Photo" \\</div>
+                  <div>  -F "category=fashion" \\</div>
+                  <div>  -F "description=Amazing shot" \\</div>
+                  <div>  http://localhost:8001/api/images/upload</div>
+                </div>
+              </div>
+
+              {/* Method 2: File Manager */}
+              <div style={{
+                background: 'rgba(16, 185, 129, 0.2)',
+                border: '2px solid var(--color-green)',
+                borderRadius: '12px',
+                padding: '2rem'
+              }}>
+                <h4 style={{ color: 'var(--color-green-light)', marginBottom: '1rem' }}>
+                  📁 Method 2: Direct File Upload
+                </h4>
+                <p style={{ color: 'var(--color-gray-300)', marginBottom: '1rem' }}>
+                  Upload files directly to the server uploads folder:
+                </p>
+                <div style={{
+                  background: '#000',
+                  padding: '1rem',
+                  borderRadius: '6px',
+                  fontSize: '0.9rem',
+                  textAlign: 'left',
+                  color: '#00ff00',
+                  fontFamily: 'monospace'
+                }}>
+                  <div># Upload to server folder:</div>
+                  <div>/app/backend/uploads/images/</div>
+                  <div>  /fashion/</div>
+                  <div>  /covers/</div>
+                  <div>  /stillLife/</div>
+                  <div>  /artPhotoPainting/</div>
+                  <div>  /editorial/</div>
+                </div>
+              </div>
+
+              {/* Method 3: Database Entry */}
+              <div style={{
+                background: 'rgba(217, 119, 6, 0.2)',
+                border: '2px solid var(--color-brown)',
+                borderRadius: '12px',
+                padding: '2rem'
+              }}>
+                <h4 style={{ color: 'var(--color-brown-light)', marginBottom: '1rem' }}>
+                  💾 Method 3: Database Entry
+                </h4>
+                <p style={{ color: 'var(--color-gray-300)', marginBottom: '1rem' }}>
+                  Add entries directly to your MongoDB database:
+                </p>
+                <div style={{
+                  background: '#000',
+                  padding: '1rem',
+                  borderRadius: '6px',
+                  fontSize: '0.9rem',
+                  textAlign: 'left',
+                  color: '#00ff00',
+                  fontFamily: 'monospace'
+                }}>
+                  <div># MongoDB collections:</div>
+                  <div>portfolio_images</div>
+                  <div>videos</div>
+                  <div>projects</div>
+                  <div>experience</div>
+                  <div>skills</div>
+                </div>
+              </div>
+            </div>
+
+            {/* Simple File Upload Form */}
+            <div style={{
+              background: 'rgba(255, 255, 255, 0.05)',
+              borderRadius: '12px',
+              padding: '2rem',
+              marginBottom: '2rem'
+            }}>
+              <h4 style={{ color: 'var(--color-white)', marginBottom: '1rem' }}>
+                📤 Quick Upload (JavaScript)
+              </h4>
+              <div style={{
+                display: 'grid',
+                gridTemplateColumns: '1fr 1fr',
+                gap: '1rem',
+                marginBottom: '1rem'
+              }}>
+                <select 
+                  id="upload-category"
+                  style={{
+                    padding: '1rem',
+                    background: '#333',
+                    color: '#fff',
+                    border: '1px solid #666',
+                    borderRadius: '4px',
+                    fontSize: '1rem'
+                  }}
+                >
+                  <option value="fashion">Fashion Photography</option>
+                  <option value="covers">Magazine Covers</option>
+                  <option value="stillLife">Still Life Photography</option>
+                  <option value="artPhotoPainting">Art Photo Painting</option>
+                  <option value="editorial">Editorial Photography</option>
+                </select>
+                
+                <input
+                  type="file"
+                  id="upload-file"
+                  multiple
+                  accept="image/*"
+                  style={{
+                    padding: '1rem',
+                    background: '#333',
+                    color: '#fff',
+                    border: '1px solid #666',
+                    borderRadius: '4px',
+                    fontSize: '1rem'
+                  }}
+                />
+              </div>
+              
+              <button
+                onClick={() => {
+                  const fileInput = document.getElementById('upload-file');
+                  const category = document.getElementById('upload-category').value;
+                  const files = fileInput.files;
+                  
+                  if (files.length === 0) {
+                    alert('Please select files to upload');
+                    return;
+                  }
+                  
+                  Array.from(files).forEach(async (file, index) => {
+                    const formData = new FormData();
+                    formData.append('file', file);
+                    formData.append('title', file.name.split('.')[0]);
+                    formData.append('description', `Curtis Williams Jr.'s ${category} photography`);
+                    formData.append('category', category);
+                    formData.append('featured', 'false');
+                    
+                    try {
+                      const response = await fetch(`${process.env.REACT_APP_BACKEND_URL}/api/images/upload`, {
+                        method: 'POST',
+                        body: formData
+                      });
+                      
+                      if (response.ok) {
+                        alert(`✅ Successfully uploaded: ${file.name}`);
+                      } else {
+                        alert(`❌ Failed to upload: ${file.name}`);
+                      }
+                    } catch (error) {
+                      alert(`❌ Error uploading ${file.name}: ${error.message}`);
+                    }
+                  });
+                  
+                  // Clear the input
+                  fileInput.value = '';
+                }}
+                style={{
+                  padding: '1rem 2rem',
+                  background: 'var(--color-red)',
+                  color: 'white',
+                  border: 'none',
+                  borderRadius: '6px',
+                  fontSize: '1rem',
+                  fontWeight: '600',
+                  cursor: 'pointer',
+                  textTransform: 'uppercase',
+                  letterSpacing: '0.1em'
+                }}
+              >
+                🚀 Upload Selected Files
+              </button>
+            </div>
+
+            <div style={{
+              background: 'rgba(16, 185, 129, 0.2)',
+              border: '1px solid var(--color-green)',
+              borderRadius: '8px',
+              padding: '1.5rem'
+            }}>
+              <h4 style={{ color: 'var(--color-green-light)', marginBottom: '0.5rem' }}>
+                ✅ Upload Status
+              </h4>
+              <p style={{ color: 'var(--color-gray-300)', margin: 0 }}>
+                Your backend API is running at: <strong>{process.env.REACT_APP_BACKEND_URL || 'Backend URL'}</strong><br />
+                Files uploaded here will appear immediately in your portfolio galleries above!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Contact Section */}
       <section id="contact" className="contact-section section-spacing">
         <div className="container-portfolio">
